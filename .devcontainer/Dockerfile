@@ -18,7 +18,7 @@ RUN apt-get update && apt-get upgrade -y && \
     watchman \
     openjdk-17-jdk \
     android-sdk \
-    wget \
+    wget direnv \
     curl  unzip xz-utils zip libglu1-mesa \
     libc6:amd64 libstdc++6:amd64 lib32z1 libbz2-1.0:amd64 && \
     rm -rf /var/lib/apt/lists/*
